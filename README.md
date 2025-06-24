@@ -116,23 +116,23 @@ You can easily switch between themes by editing your PowerShell profile:
 
 Below are some of the themes included in this setup. You can preview them before switching:
 
-### 🎯 `atomic.omp.json`
+### 🎯 `atomic`
 
 ![atomic](assets/atomic.png)
 
-### 🌀 `1_shell.omp.json`
+### 🌀 `1_shell`
 
 ![1_shell](assets/1_shell.png)
 
-### ⚡ `agnoster.minimal.omp.json`
+### ⚡ `agnoster.minimal`
 
 ![agnoster.minimal](assets/agnoster.minimal.png)
 
-### 🧭 `agnoster.omp.json`
+### 🧭 `agnoster`
 
 ![agnoster](assets/agnoster.png)
 
-### 🎨 `amro.omp.json`
+### 🎨 `amro`
 
 ## ![amro](assets/amro.png)
 
