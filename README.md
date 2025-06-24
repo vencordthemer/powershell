@@ -52,8 +52,8 @@ Oh My Posh requires a [Nerd Font](https://www.nerdfonts.com) to properly render 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/pwsh-setup.git
-   cd pwsh-setup
+   git clone https://github.com/vencordthemer/powershell.git
+   cd powershell
    ```
 
 2. Run the setup script in **PowerShell**:
