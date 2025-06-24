@@ -98,7 +98,7 @@ You can easily switch between themes by editing your PowerShell profile:
 3. Change `"THEME"` to the name of another theme file (e.g. `"atomic"`):
 
    ```powershell
-   $themeName = "midnight"
+   $themeName = "atomic"
    ```
 
 4. Save the file and restart PowerShell — your new theme will be applied!
