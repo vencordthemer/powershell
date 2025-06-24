@@ -43,6 +43,7 @@ Oh My Posh requires a [Nerd Font](https://www.nerdfonts.com) to properly render 
    ```
    FiraCode Nerd Font, Consolas, 'Courier New', monospace
    ```
+   > Only set it to this if you downloaded FiraCode Nerd Font
 
 ---
 
