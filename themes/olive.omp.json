@@ -1,0 +1,95 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 3,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "shell",
+          "style": "diamond",
+          "leading_diamond": "╭─",
+          "background": "#6A994E",
+          "foreground": "#1C1D1A",
+          "template": " {{ .Name }} "
+        },
+        {
+          "type": "root",
+          "style": "diamond",
+          "background": "#A98467",
+          "foreground": "#FFF9E6",
+          "template": "<parentBackground></> "
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#A3B18A",
+          "foreground": "#1C1D1A",
+          "template": "  {{ .Path }} ",
+          "properties": {
+            "style": "folder",
+            "home_icon": "",
+            "folder_icon": ""
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": " ",
+          "background": "#B7B77A",
+          "foreground": "#1C1D1A",
+          "template": " \uf408  {{ .HEAD }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }} ",
+          "properties": {
+            "branch_icon": " ",
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "os",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "background": "#588157",
+          "foreground": "#ffffff",
+          "template": " {{ .Icon }} ",
+          "properties": {
+            "windows": "",
+            "macos": "",
+            "linux": ""
+          }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "background": "#588157",
+          "foreground": "#1C1D1A",
+          "template": " \uf2f2 {{ .CurrentDate | date \"02 Jan 15:04\" }} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#21c7c7",
+          "template": "╰─ "
+        }
+      ]
+    }
+  ]
+}
